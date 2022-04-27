@@ -1,3 +1,14 @@
+# Angular - Utilizando os recursos do framework 
+<img width="130" alt="Emoji" src="https://user-images.githubusercontent.com/31116694/165423974-5261b890-c0f1-4c26-804e-82c3aae8ea4f.png">
+
+
+# Screenshots
+
+<img width="955" alt="Captura de tela 2022-04-26 231022" src="https://user-images.githubusercontent.com/31116694/165425093-94235585-4ce4-49d1-aab4-6e43d0248aa9.png">
+<img width="964" alt="Captura de tela 2022-04-26 231120" src="https://user-images.githubusercontent.com/31116694/165425096-9c26cec6-a604-42ad-834a-c96f223c3257.png">
+
+
+
 # Bytebank
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
