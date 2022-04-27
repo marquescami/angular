@@ -1,3 +1,5 @@
+import { Router, RouterModule } from '@angular/router';
+import { routes } from './../app-routing.module';
 import { Transferencia } from './../models/transferencia.model';
 import { TransferenciaService } from './../../services/transferencia.service';
 import { HttpClient } from '@angular/common/http';
@@ -16,7 +18,7 @@ export class NovaTransferenciaComponent {
   valor: number;
   destino: number;
 
-  constructor(private service: TransferenciaService) {
+  constructor(private service: TransferenciaService, private router: Router) {
 
   }
 
@@ -32,6 +34,7 @@ export class NovaTransferenciaComponent {
       (resultado) => {
       console.log(resultado);
      this.limparCampos();
+     this.router.navigateByUrl('extrato');
     },
     (error) => console.error(error)
     );
